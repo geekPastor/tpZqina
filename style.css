@@ -1,0 +1,81 @@
+/*En tete*/
+body
+{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1024px;
+    background-color: rgb(205, 169, 50);
+}
+/*Bouton de navigation*/
+.lien {
+    background-color: rgb(143, 143, 48);
+    text-align: justify;
+    display: inline-block;
+    padding: 20px;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+/* Survol */
+.lien:hover {
+    color: white;
+    background-color: rgb(78, 54, 9);
+}
+
+p br {
+    text-align: justify;
+}
+/* Image baniere */
+.baniere
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('assets/baniere.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+.text_baniere
+{
+    padding-top: 15%;
+    padding-left: 5%;
+    color: whitesmoke;
+    text-decoration: bold;
+}
+/* Corps de la page*/
+.corps_page
+{
+    text-align: justify;
+
+}
+
+/*Pied de la page*/
+footer
+{
+    margin-top: 50px;
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(78, 54, 9);
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+    color: rgb(14, 13, 13);
+    padding-left: 10px;
+    
+}
+.mes_photos
+{
+    width: 150px;
+    height: 160px;
+    padding-right: 4px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
